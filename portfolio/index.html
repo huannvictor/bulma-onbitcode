@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
@@ -11,32 +15,165 @@
     <title>Huann Almeida • Javascript Dev</title>
   </head>
   <body>
-    <header></header>
-    <div class="container">
-      <section class="section level">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image">
-              <img
-                class="profile-pic"
-                src="https://avatars.githubusercontent.com/u/67878933?s=400&u=d330d90f1fc045dc56bc48d9397db5ce513be003&v=4"
-                alt=""
-              />
-            </figure>
-          </div>
-
-          <div class="card-content">
-            <h1 class="title">Huann Almeida</h1>
-            <p class="button has-text-weight-semibold is-unselectable is-dark has-text-centered"
-              >Javascript Front End Developer</p>
-            <p class="my-4 has-text-weight-semibold ">(83) 99980-2317</p>
-            <p class="my-4 has-text-weight-semibold">huannvictor@gmail.com</p>
-          </div>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a href="http://www.github.com/huannvictor">
+          <img src="desing/logo.svg" alt="">
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-satart">
+          <a href="index.html" class="navbar-item">Home</a>
         </div>
-      </section>
-      <section class="section">
-        <div class="tile"></div>
-      </section>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="columns">
+        <section class="section column is-narrow">
+          <div class="card" style="width: 380px">
+            <div class="card-image">
+              <figure class="image">
+                <img
+                  class="profile-pic"
+                  src="https://avatars.githubusercontent.com/u/67878933?s=400&u=d330d90f1fc045dc56bc48d9397db5ce513be003&v=4"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="title">Huann Almeida</h1>
+              <p class="tag is-link has-text-centered is-size-6">
+                Javascript Front End Developer
+              </p>
+              <p class="my-4 has-text-weight-semibold">+5583 99980-2317</p>
+              <p class="my-4 has-text-weight-semibold">huannvictor@gmail.com</p>
+            </div>
+          </div>
+        </section>
+        <section class="section column">
+          <!-- *About Me -->
+          <div class="card" id="AboutMe">
+            <div class="card-header">
+              <h1 class="card-header-title">About Me</h1>
+            </div>
+            <p class="card-content">
+              I'm looking for a change in my professional field. Leaving the
+              Management area, I want to work with something that has more to do
+              with me. Programming has been a challenging and thought-provoking
+              discovery.
+              <br />
+              I always liked the administrative area, but it doesn't challenge
+              me as it had done once.
+              <br />
+              After researching for over a year and also listening to close
+              friends, I saw the Web Development area is a great starting point
+              for this change. I can say that I'm falling in love with coding.
+              <br />
+              I am eager to acquire new experiences, contribute to a focused
+              team and be in an area that provides a better quality of life for
+              me and my family.Z
+            </p>
+          </div>
+          <br />
+          <!-- *Last Experiences -->
+          <div id="LastExp" class="card">
+            <div class="card-header">
+              <h1 class="card-header-title">Last Experiences</h1>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-96x96">
+                    <img
+                      class="is-rounded"
+                      src="https://bulma.io/images/placeholders/96x96.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-6 has-text-weight-bold">
+                    Javascript Developer
+                    <span class="tag is-primary is-pulled-right"
+                      >Corporation Name</span
+                    >
+                  </p>
+                  <p class="subtitle is-6">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sint fugit quisquam aliquam corporis enim ut, delectus
+                    officia repudiandae assumenda maiores impedit, itaque saepe
+                    inventore repellat modi, accusantium vitae excepturi quam.
+                  </p>
+                </div>
+              </div>
+
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-96x96">
+                    <img
+                      class="is-rounded"
+                      src="https://bulma.io/images/placeholders/96x96.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-6 has-text-weight-bold">
+                    Javascript Developer
+                    <span class="tag is-primary is-pulled-right"
+                      >Corporation Name</span
+                    >
+                  </p>
+                  <p class="subtitle is-6">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sint fugit quisquam aliquam corporis enim ut, delectus
+                    officia repudiandae assumenda maiores impedit, itaque saepe
+                    inventore repellat modi, accusantium vitae excepturi quam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <!-- *Education -->
+          <div id="Education" class="card">
+            <div class="card-header">
+              <h1 class="card-header-title">Education</h1>
+            </div>
+            <div class="card-content">
+              <h1 class="title is-6 has-text-weight-bold">
+                Javascript Full Stack em 8 Semanas
+                <span class="tag is-primary is-pulled-right"
+                  >Onebitcode.com</span
+                >
+              </h1>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Velit id incidunt reiciendis quis. Et reprehenderit explicabo
+                  qui culpa eum voluptatibus quidem illo, necessitatibus
+                  doloremque dignissimos dolor perspiciatis atque animi commodi.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h1 class="title is-6 has-text-weight-bold">
+                Learning React
+                <span class="tag is-primary is-pulled-right">Scrimba.com</span>
+              </h1>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Velit id incidunt reiciendis quis. Et reprehenderit explicabo
+                  qui culpa eum voluptatibus quidem illo, necessitatibus
+                  doloremque dignissimos dolor perspiciatis atque animi commodi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
